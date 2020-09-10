@@ -7,7 +7,7 @@
       KAZUYA IGARASHI
   .profile-box-main
     .profile-box-main-photo
-      = image_tag ('IMG_1890.jpeg'), size:'400x350', class: "profile-photo-img"
+      = image_tag asset_path('IMG_1890.jpeg'), size:'400x350', class: "profile-photo-img"
     .profile-box-main-text
       .profile-box-main-text-main
         生い立ち
@@ -37,23 +37,23 @@
           = link_to aibot_items_path do
             AiBot
         .content-img
-          = image_tag ('aibot-img.png'), size:'400x350', class: "profile-photo-img"
+          = image_tag asset_path('aibot-img.png'), size:'400x350', class: "profile-photo-img"
       .content-box
         .content-link
           = link_to aibot_items_path do
             FAVO
         .content-img
-          = image_tag ('favo-img.jpg'), size:'400x350', class: "profile-photo-img"
+          = image_tag asset_path('favo-img.jpg'), size:'400x350', class: "profile-photo-img"
     .portfolio__box__main
       .content-box
         .content-link
           = link_to aibot_items_path do
             Chat Space
         .content-img
-          = image_tag ('chat-space.png'), size:'400x350', class: "profile-photo-img"
+          = image_tag asset_path('chat-space.png'), size:'400x350', class: "profile-photo-img"
       .content-box
         .content-link
           = link_to aibot_items_path do
             Flee Market
         .content-img
-          = image_tag ('flea-market-img.jpg'), size:'400x350', class: "profile-photo-img"
+          = image_tag asset_path('flea-market-img.jpg'), size:'400x350', class: "profile-photo-img"
