@@ -40,15 +40,43 @@
   .profile-box-main{
     display: flex;
     justify-content: center;
-    .profile-box-main-phot{
+    .profile-box-main-photo{
       margin-right: 30px;
-
+      .profile-photo-img{
+        border-radius: 190px;
+      }
     }
     .profile-box-main-text{
       display: flex;
       align-items: center;
-
     }
   }
+}
 
+.portfolio{
+  padding: 50px;
+}
+
+.portfolio__box__main{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-box{
+  position: relative;
+  .content-link{
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    left: 60px;
+    top: 30px;
+  }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+  .content-img{
+
+  }
 }
