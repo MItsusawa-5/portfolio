@@ -7,7 +7,7 @@
       KAZUYA IGARASHI
   .profile-box-main
     .profile-box-main-photo
-      = image_tag asset_path('IMG_1890.jpeg'), size:'400x350', class: "profile-photo-img"
+      = image_tag '/images/IMG_1890.jpeg', size:'400x350',class: "profile-photo-img", alt:"画像を表示出来ません" 
     .profile-box-main-text
       .profile-box-main-text-main
         生い立ち
@@ -37,23 +37,23 @@
           = link_to aibot_items_path do
             AiBot
         .content-img
-          = image_tag asset_path('aibot-img.png'), size:'400x350', class: "profile-photo-img"
+          = image_tag '/images/aibot-img.png', size:'400x350', class: "profile-photo-img"
       .content-box
         .content-link
           = link_to aibot_items_path do
             FAVO
         .content-img
-          = image_tag asset_path('favo-img.jpg'), size:'400x350', class: "profile-photo-img"
+          = image_tag '/images/favo-img.jpg', size:'400x350', class: "profile-photo-img"
     .portfolio__box__main
       .content-box
         .content-link
           = link_to aibot_items_path do
             Chat Space
         .content-img
-          = image_tag asset_path('chat-space.png'), size:'400x350', class: "profile-photo-img"
+          = image_tag '/images/chat-space.png', size:'400x350', class: "profile-photo-img"
       .content-box
         .content-link
           = link_to aibot_items_path do
             Flee Market
         .content-img
-          = image_tag asset_path('flea-market-img.jpg'), size:'400x350', class: "profile-photo-img"
+          = image_tag '/images/flea-market-img.jpg', size:'400x350', class: "profile-photo-img"
