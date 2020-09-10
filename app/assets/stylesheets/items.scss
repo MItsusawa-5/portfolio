@@ -1,0 +1,54 @@
+.head-bar__logo{
+  width: 1200px;
+  border-bottom: 1px black solid;
+  margin-left: 20px;
+  font-size: 62px;
+  font-family: serif;
+  font-weight: bold;
+  height: 70px;
+  color: black;
+  animation: text_animation1 3s;
+  a{
+    color: black;
+  }
+}
+
+@keyframes text_animation1{
+  0%{
+    letter-spacing: -0.5em;
+    transform: translateY(-1000px);
+  }
+  50%{
+    letter-spacing: -0.5em;
+    transform: none;
+  }
+  100%{
+    letter-spacing: 0;
+  }
+}
+
+.profile-box{
+  
+  .profile-box-link{
+    padding:30px 0 20px 0;
+    text-align: center;
+    a{
+      font-size: 30px;
+      color: black;
+    }
+  }
+  .profile-box-main{
+    display: flex;
+    justify-content: center;
+    .profile-box-main-phot{
+      margin-right: 30px;
+
+    }
+    .profile-box-main-text{
+      display: flex;
+      align-items: center;
+
+    }
+  }
+
+}
