@@ -7,7 +7,7 @@
   font-weight: bold;
   height: 70px;
   color: black;
-  animation: text_animation1 3s;
+  animation: text_animation1 2s;
   a{
     color: black;
   }
@@ -28,7 +28,7 @@
 }
 
 .profile-box{
-  
+  // background-color: #EEEEEE;
   .profile-box-link{
     padding:30px 0 20px 0;
     text-align: center;
@@ -49,6 +49,9 @@
     .profile-box-main-text{
       display: flex;
       align-items: center;
+      .profile-box-main-text-main{
+        width: 530px;
+      }
     }
   }
 }
@@ -58,25 +61,61 @@
 }
 
 .portfolio__box__main{
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  // justify-content: space-around;
+  width: 1350px;
 }
 
 .content-box{
   position: relative;
   .content-link{
+    color:black;
     font-weight: bold;
     font-size: 30px;
     position:absolute;
-    left: 60px;
+    left: 80px;
     top: 30px;
   }
       a{
-        color: white;
+      
         text-decoration: none;
       }
   .content-img{
+    .profile-photo-img{
+      // opacity: 0.3;
+    }
 
   }
+}
+
+.content-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: white;
+  // background-image: url("unnamed.jpg");
+  color: #FFF;
+  border: 1px solid black;
+  border-bottom: solid 4px #627295;
+  border-radius: 20px;
+  font-size: 50px;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+.content-link:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.content-link:hover{
+  background-color: blue;
+}
+
+.portfolio-photo-img{
+  // border-radius: 10px;
+  border: black solid 1px;
 }

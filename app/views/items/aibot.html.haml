@@ -1,0 +1,33 @@
+.wrapper
+  = render "top-bar"
+.profile-box-aibot
+  .profile-box-link
+    %a Aibot _アイボット_
+  .profile-box-main
+    .profile-box-main-photo
+      = image_tag '/images/aibot-img.png', size:'400x350',class: "aibot-photo-img", alt:"画像を表示出来ません" 
+    .profile-box-main-text
+      .profile-box-main-text-main
+        __LINE Chat bot アプリ__
+        %br
+        %br
+        ・現在開発中
+        %br
+        製作者の朝寝坊を改善する為に作成開始。
+        %br
+        機能的にはまだ至りませんが機能追加更新中。
+        %br
+        %br
+        ・機能紹介はこちら
+        GitHub　URL
+        %br
+        = link_to "https://github.com/MItsusawa-5/Aibot" do
+          https://github.com/MItsusawa-5/Aibot
+        %br
+        ・アプリ参照方法
+        %br
+          LINEアプリ、友達ID検索で「1654902973」を検索して下さい。
+        %br
+        %br
+.wrapper
+  = render "bottom-bar"
