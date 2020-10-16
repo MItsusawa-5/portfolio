@@ -1,0 +1,42 @@
+.wrapper
+  = render "top-bar"
+.profile-box-aibot
+  .profile-box-link
+    %a ChatSpace _チャットスペース_
+  .profile-box-main
+    .profile-box-main-photo
+      = image_tag '/images/chat-space.png', size:'600x350',class: "aibot-photo-img", alt:"画像を表示出来ません" 
+    .profile-box-main-text
+      .profile-box-main-text-main
+        __チャットアプリ__
+        %br
+        %br
+        チャットを用いたコミュニケーションアプリ
+        %br
+        オーソドックスなチャットアプリ、学習の過程で作成しました。
+        %br
+        ー実装機能ー
+        %br
+        ・アカウントログイン機能
+        %br
+        ・画像送信
+        %br
+        ・グループ管理
+        %br
+        ・自動スクロール機能
+        %br
+        ＝使用言語＝
+        %br
+        ・HTML ・CSS ・JavaScript
+        %br
+        ＝紹介はこちら＝
+        %br
+        GitHub　URL
+        %br
+        = link_to "https://github.com/MItsusawa-5/chat-space" do
+          https://github.com/MItsusawa-5/chat-space
+        %br
+        %br
+        %br
+.wrapper
+  = render "bottom-bar"

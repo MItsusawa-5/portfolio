@@ -1,0 +1,44 @@
+.wrapper
+  = render "top-bar"
+.profile-box-aibot
+  .profile-box-link
+    %a FleeMarket _フリーマーケットアプリ_
+  .profile-box-main
+    .profile-box-main-photo
+      = image_tag '/images/flea-market-img.jpg', size:'600x350',class: "aibot-photo-img", alt:"画像を表示出来ません" 
+    .profile-box-main-text
+      .profile-box-main-text-main
+        __フリマアプリ__
+        %br
+        %br
+        出品購入ができるフリマアプリ
+        %br
+        学習の過程で作成しました。
+        %br
+        ー実装機能ー
+        %br
+        ・アカウントログイン機能
+        %br
+        ・商品投稿機能
+        %br
+        ・商品画像複数登録
+        %br
+        ・ジャンル管理
+        %br
+        ・PayJpを用いた購入機能
+        %br
+        ＝使用言語＝
+        %br
+        ・HTML ・CSS ・JavaScript
+        %br
+        ＝紹介はこちら＝
+        %br
+        GitHub　URL
+        %br
+        = link_to "https://github.com/MItsusawa-5/fleamarket_sample_80f" do
+          https://github.com/MItsusawa-5/fleamarket_sample_80f
+        %br
+        %br
+        %br
+.wrapper
+  = render "bottom-bar"

@@ -2,10 +2,6 @@
   padding: 50px;
 }
 
-.aibot-photo-img{
-  border-radius: 30px;
-
-}
 
 .profile-box-aibot{
   height: 100vh;
@@ -36,6 +32,7 @@
     }
     .aibot-photo-img{
       border: #EEEEEE 1px solid;
+      border-radius: 30px;
     }
   }
 }
