@@ -80,21 +80,49 @@
       
         text-decoration: none;
       }
-  .content-img{
-    .profile-photo-img{
-      // opacity: 0.3;
-    }
-
+  .content-box-info{
+    width: 250px;
+    height: 300px;
+    border: 1px black solid;
+    border-radius: 10px;
+    position: absolute;
+    color: black;
+    background-color: #99FFCC;
+    right:300px;
+    top: 10px;
+    display: none;
+    // visibility: hidden;
+    
   }
+  .content-box-info-1{
+    width: 250px;
+    height: 300px;
+    border: 1px black solid;
+    border-radius: 10px;
+    position: absolute;
+    color: black;
+    background-color: #99FFCC;
+    left:320px;
+    top: 10px;
+    display: none;
+  }
+
 }
+
+  .content-link:hover .content-box-info {
+    display: block;
+    
+  }
+  .content-link:hover .content-box-info-1 {
+    display: block;
+  }
+
 
 .content-link {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
   background-color: white;
-  // background-image: url("unnamed.jpg");
-  color: #FFF;
   border: 1px solid black;
   border-bottom: solid 4px #627295;
   border-radius: 20px;
@@ -110,8 +138,10 @@
   border-bottom: none;/*線を消す*/
 }
 .content-link:hover{
-  color: white;
-  background-color: blue;
+  color: #003366;
+  background-color: #99FFCC;
+  transition: color 0.5s ease 0s;
+  transition: background-color 0.5s;
 }
 
 .portfolio-photo-img{

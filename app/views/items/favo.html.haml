@@ -1,0 +1,39 @@
+.wrapper
+  = render "top-bar"
+.profile-box-aibot
+  .profile-box-link
+    %a FAVO _ファボ_
+  .profile-box-main
+    .profile-box-main-photo
+      = image_tag '/images/favo-img-2.jpg', size:'600x350',class: "aibot-photo-img", alt:"画像を表示出来ません" 
+    .profile-box-main-text
+      .profile-box-main-text-main
+        __商品管理アプリ__
+        %br
+        %br
+        現在開発中
+        %br
+        混みいった商品購入アプリの整理を目的に開発開始。
+        %br
+        お気に入り商品をまとめて管理、商品ページに動画を組み込む事も出来ます。
+        %br
+        商品リストを他人に共有できる機能を実装予定
+        %br
+        機能的にはまだ至りませんが機能追加更新中。
+        %br
+        %br
+        ＝使用言語＝
+        %br
+        ・HTML ・CSS ・JavaScript
+        %br
+        ＝機能紹介はこちら＝
+        %br
+        GitHub　URL
+        %br
+        = link_to "https://github.com/MItsusawa-5/FAVO" do
+          https://github.com/MItsusawa-5/FAVO
+        %br
+        %br
+        %br
+.wrapper
+  = render "bottom-bar"
