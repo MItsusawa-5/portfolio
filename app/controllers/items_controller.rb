@@ -9,6 +9,9 @@ class ItemsController < ApplicationController
   def profile
   end
 
+  def content
+  end
+
   def aibot
   end
 
