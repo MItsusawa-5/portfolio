@@ -1,1 +1,37 @@
-popopo
+.wrapper
+  = render "top-bar"
+.profile-box
+  .profile-box-link
+    KAZUYA IGARASHI
+  .profile-box-main
+    .profile-box-main-photo
+      = image_tag '/images/IMG_1890.jpeg', size:'350x270',class: "profile-photo-img", alt:"画像を表示出来ません" 
+    .profile-box-main-text
+      .profile-box-main-text-main
+        __生い立ち__
+        %br
+        1989年　東京都で生まれ、大学卒業まで神奈川県で育つ。
+        %br
+        2013年 3月　日本大学経済学部卒
+        %br
+        2013年 4月　株式会社コシダカ入社
+        %br
+        2020年 5月　株式会社コシダカを退社
+        %br
+        2020年 6月　プログラミングスクール「テックキャンプ」で学習開始
+        %br
+        現在　　サービス業出身未経験エンジニアとして就職活動中！
+        %br
+        %br
+        趣味　テニス、釣り、卓球
+        %br
+        　　　アニメ、ゲーム、麻雀、etc。。。
+        %br
+        ーーーーーーーーーーーーーーーーーーーー
+        %br
+        開発実績　Githubへのリンクはこちら
+        %br
+        = link_to "https://github.com/MItsusawa-5" do
+          https://github.com/MItsusawa-5
+.wrapper
+  = render "bottom-bar"

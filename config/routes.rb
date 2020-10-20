@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :items do
     collection do
       get 'profile'
+      get 'content'
       get 'aibot'
       get 'favo'
       get 'chatSpace'
