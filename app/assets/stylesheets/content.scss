@@ -1,0 +1,96 @@
+.portfolio{
+  padding: 20px 50px;
+}
+
+.portfolio__box__main{
+  // margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  // justify-content: space-around;
+  width: 1350px;
+}
+
+.content-box{
+  position: relative;
+  .content-link{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    left: 80px;
+    top: 30px;
+  }
+      a{
+      
+        text-decoration: none;
+      }
+  .content-box-info{
+    width: 250px;
+    height: 200px;
+    border: 1px black solid;
+    border-radius: 10px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    background-color: #99FFCC;
+    right:300px;
+    top: 10px;
+    display: none;
+    // visibility: hidden;
+    
+  }
+  .content-box-info-1{
+    width: 250px;
+    height: 200px;
+    border: 1px black solid;
+    border-radius: 10px;
+    position: absolute;
+    color: black;
+   
+    background-color: #99FFCC;
+    left:320px;
+    top: 10px;
+    display: none;
+  }
+
+}
+
+  .content-link:hover .content-box-info {
+    display: block;
+    
+  }
+  .content-link:hover .content-box-info-1 {
+    display: block;
+  }
+
+
+.content-link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+  border-bottom: solid 4px #627295;
+  border-radius: 20px;
+  font-size: 50px;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+.content-link:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.content-link:hover{
+  color: #003366;
+  background-color: #99FFCC;
+  transition: color 0.5s ease 0s;
+  transition: background-color 0.5s;
+}
+
+.portfolio-photo-img{
+  // border-radius: 10px;
+  border: black solid 1px;
+}

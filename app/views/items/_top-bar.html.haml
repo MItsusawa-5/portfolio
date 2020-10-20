@@ -1,3 +1,14 @@
 .head-bar
   .head-bar__logo
     %a Portfolio
+.main-link
+  .main-link-box
+    .link-top
+      = link_to items_path do
+        Top
+    .link-profile
+      = link_to profile_items_path do
+        Profile
+    .link-content
+      = link_to content_items_path do
+        Content
